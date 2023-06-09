@@ -20,10 +20,4 @@
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\Storm\Desktop\PuckDrop\PuckDropFunctions\.editorconfig" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="C:\Users\Storm\Desktop\PuckDrop\PuckDropFunctions\.editorconfig" />
-  </ItemGroup>
 </Project>

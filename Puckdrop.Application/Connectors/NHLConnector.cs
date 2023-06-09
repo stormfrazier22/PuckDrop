@@ -17,7 +17,7 @@ namespace PuckDrop.Connectors
         public async Task<HttpResponseMessage> GetTodayGame(int teamId)
         {
             var today = DateTime.UtcNow.Date.ToString("yyyy-MM-dd");
-            var yesterday = DateTime.UtcNow.AddDays(-7).ToString("yyyy-MM-dd");
+            var yesterday = DateTime.UtcNow.AddDays(-1).ToString("yyyy-MM-dd");
             return await _client.GetAsync($"schedule?teamId={teamId}&startDate={yesterday}&endDate={today}");
         }
 
